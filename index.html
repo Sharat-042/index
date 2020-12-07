@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YAV</title>
+    </head>
+    <body>
+        <head>
+            <style>
+                .center{
+                    text-align: center;
+                    color: rgb(255, 145, 0);
+                }
+                .align{
+                    margin: auto;
+                }
+                .button {
+                    background-color: #af744ce1;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: auto;
+                    cursor: pointer;
+                  }
+                  .border{
+                      border: black solid 2px;
+                  }
+                  .body{
+                    width: 100%;
+                    min-height: 100%;
+                    height: 100vh;
+                    background-image: url("Demo.jpg");
+                  }
+            </style>
+        </head>
+        <h1 class="center">Book a call</h1>
+        <div class="align">
+        <p class="center">Book a call slot and our representative will call you within the selected time</p>
+        </div>
+        
+        <form>
+            <table class="align">
+                <tr>
+                    <td>Name:</td>
+                    <td>
+                        <input type="text" placeholder="Name" name=""><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="mail" placeholder="Email" name=""><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone no:</td>
+                    <td>
+                        <select>
+                            <option>+91</option>
+                            <option>+1</option>
+                            <option>+44</option>
+                            <option>+971</option>
+                            <option>+64</option>
+                        </select>
+                        <input type="Phone" placeholder="Phone no" name=""><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Time for call:</td>
+                    <td>
+                        <input type="Date" placeholder="date" name="">
+                        <input type="time" placeholder="11:00" name=""><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <button type="button" class="button">Get a Call</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
